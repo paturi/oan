@@ -34,24 +34,26 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>OpenAI Quickstart</title>
-        <link rel="icon" href="/dog.png" />
+        <title>My own GPT</title>
+        <link rel="icon" href="/Hasegawa_Tohaku.webp" />
       </Head>
 
       <main className={styles.main}>
-        <img src="/dog.png" className={styles.icon} />
-        <h3>Name my pet</h3>
+        <img src="/Hasegawa_Tohaku.webp" className={styles.icon} />
+        <h3>Query the GPT</h3>
         <form onSubmit={onSubmit}>
           <input
             type="text"
             name="animal"
-            placeholder="Enter an animal"
+            placeholder="Enter your prompt"
             value={animalInput}
             onChange={(e) => setAnimalInput(e.target.value)}
           />
-          <input type="submit" value="Generate names" />
+          <input type="submit" value="Generate completion" />
         </form>
-        <div className={styles.result}>{result}</div>
+        <div className={styles.result}>
+        <p>Completion: {result}
+        </p></div>
       </main>
     </div>
   );
