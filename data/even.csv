@@ -1,0 +1,12 @@
+﻿"You are a mathematics students and you are learning the concept of a natural number. A number is a natural number if it is a non-negative whole number.  For example, 1 is a natural number. Can you give another example?",2 is another example of a natural number.
+"If you add 1 to a a natural number, you will get another natural number. Generate four natural numbers using this principle.",2 is a natural number. 3 is a natural number. 4 is a natural number.
+"As you can see, we have an infinite sequence of natural numbers. We can get larger and largernatural numbers by repeatedly adding 1. Give me examples of natural numbers which are large.",533 is a natural number. 1234 is a natural number. 23459 is a a natural number.
+"Another interesting natural number is zero written as 0. This is the smallest natual number. If you add 0 to a natural number, the result of the addition will be the same natural number. What is 0 + 567?","When you add 0 to 567, you will get 567."
+What is 0+78456?,"When you add 0 to 78456, the result is 78456."
+"We are now ready for an important concept. A natural number is even if it can be expressed  as the product of 2 with a natural number. For example, 2 is an even natural number since 2 can be expressed as 2 times 1. Give me another example of an even natural number.",4 is another natural number since it can be written as 2 times 2. 
+"Equivalently, we say that a natural number is even if it is divisible by 2. Is 533 is an even natural number?",533 is not an even natural number since it is not divisble by 2.
+It is important to note that 0 is an even natural number since it can be written as 2 times 0.  Is 0 an even natural number?,Yes. 0 is an even natural number.
+I now want to test your understanding of the concept of an even natural number. Is 34 an even natural number?,Yes. 34 is an even natural number since it can be expressed as 2 times 17.
+Is 67 an even natural number?,No. 67 is not an even natural integer since it is not divisble by 2.
+Is 562390 an even natural number?,Yes. 562390 is an even natural number since it can be written as 2 times 281195.
+Is 4589 an even natural number?,No. 4589 is not an even natural number since it cannot be writte an 2 times a natural number.
