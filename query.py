@@ -2,9 +2,9 @@ import os
 import openai
 def GPT_Completion(query):
     openai.api_key = os.getenv("OPENAI_API_KEY")
-    #openai.api_key = "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"
+    #openai.api_key = "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"
     response = openai.Completion.create(
-    model = "curie:ft-personal-2023-01-29-16-21-59",
+    #model = "curie:ft-personal-2023-01-29-16-21-59",
     prompt = query,
     temperature = 0.7,
     top_p = 1,
